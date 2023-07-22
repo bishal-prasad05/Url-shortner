@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL-Shortner</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+</style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><p>URL Shortner</p></div>
+      <div class="search-section">
+        <input type="text" placeholder="Paste the url here" class="url" />
+        <button class="btn" onclick="check()">Shorten</button>
+      </div>
+      <div class="url-links">
+        <p>Shorten-links</p>
+        <input type="text" id="one" class="first-url common-url" /><button onclick="copy(1)"
+          class="first-button common"
+        >
+          Copy
+        </button>
+        <input type="text" id="two" class="second-url common-url" /><button onclick="copy(2)"
+          class="second-button common"
+        >
+          Copy
+        </button>
+        <input type="text" id="three" class="third-url common-url" /><button onclick="copy(3)"
+          class="third-button common"
+        >
+          Copy
+        </button>
+        <input type="text" id="four" class="fourth-url common-url" /><button onclick="copy(4)"
+          class="fourth-button common"
+        >
+          Copy
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

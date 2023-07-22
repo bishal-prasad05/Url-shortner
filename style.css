@@ -1,0 +1,121 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 600px;
+  width: 600px;
+  border: 2px solid red;
+  margin: 30px auto 10px;
+  border-radius: 20px;
+}
+
+.title {
+  /* border: 2px solid black; */
+  font-size: 40px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.search-section {
+  /* border: 2px solid black; */
+  width: 500px;
+  margin: 0px auto 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 10px;
+  background: white;
+}
+
+.url {
+  position: absolute;
+  top: 6px;
+  margin-left: 10px;
+  width: 77%;
+  height: 70%;
+  outline: none;
+  border: none;
+}
+
+.btn {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 20%;
+  border-radius: 10px;
+  cursor: pointer;
+  background: tomato;
+  border: none;
+}
+
+.url-links {
+  position: relative;
+  width: 500px;
+  margin: 0px auto 40px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid wheat;
+  /* background: rgb(21, 163, 165); */
+  padding: 20px;
+}
+
+.url-links p {
+  font-size: 20px;
+  margin-top: 0px;
+}
+.common {
+  background: white;
+  position: absolute;
+  width: 10%;
+  border-radius: 10px;
+  height: 37px;
+  margin-bottom: 20px;
+  border: none;
+  right: 20px;
+}
+
+.common:hover{
+    background: tomato;
+    cursor: pointer;
+}
+
+.common-url {
+  position: absolute;
+  padding-left: 20px;
+  width: 75%;
+  border-radius: 10px;
+  height: 37px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.first-url,
+.first-button {
+  margin-top: 10px;
+}
+
+.second-url,
+.second-button {
+  margin-top: 70px;
+}
+
+.third-url,
+.third-button {
+  margin-top: 130px;
+}
+
+.fourth-url,
+.fourth-button {
+  margin-top: 190px;
+}
